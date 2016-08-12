@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Will CSS for food</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.concisecss.com/v3.4.0/concise.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300|Source+Sans+Pro:400,300|Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="header" container>
+    <div row>
+      <div class="logo" column="4 +1">
+        <img src="images_static/panda_logo.jpg" width="85px" height="85px" alt="peaceful pandas" />
+      </div>
+      <div class="name" column="6">
+        <h1>Jane Doette</h1>
+        <h4>Front-End drunken brawler</h4>
+      </div>
+    </div>
+    <hr>
+    <div row>
+      <div column="10 +1">
+        <img srcset="images/panda-eating-1200w.jpg 1200w,
+                    images/panda-eating-800w.jpg 800w,
+                    images/panda-eating-400w.jpg 400w"
+             src="images/panda-eating-400w.jpg"
+             class="media--fluid"
+             alt="panda chewing bamboo" />
+      </div>
+    </div>
+    <div row>
+      <div column="10 +1">
+        <h3>Featured Work</h3>
+      </div>
+    </div>
+    <div column="10 +1">
+      <div row class="projects-container">
+        <div column="4" class="project">
+          <img srcset="images/panda-furious-1200w.jpg 1200w,
+                      images/panda-furious-800w.jpg 800w,
+                      images/panda-furious-400w.jpg 400w"
+               src="images/panda-furious-400w.jpg"
+               class="media--fluid"
+               alt="panda with rage in it's eyes" />
+          <h2>Anger</h2>
+          <p>
+            https://github.com/udacity/Appify
+          </p>
+        </div>
+        <div column="4" class="project">
+          <img srcset="images/panda-relaxing-1200w.jpg 1200w,
+                      images/panda-relaxing-800w.jpg 800w,
+                      images/panda-relaxing-400w.jpg 400w"
+               src="images/panda-relaxing-400w.jpg"
+               class="media--fluid"
+               alt="panda laying on a rock" />
+          <h2>Relaxation</h2>
+          <p>
+            https://github.com/udacity/Sunflower
+          </p>
+        </div>
+        <div column="4" class="project">
+          <img srcset="images/panda-sad-1200w.jpg 1200w,
+                      images/panda-sad-800w.jpg 800w,
+                      images/panda-sad-400w.jpg 400w"
+               src="images/panda-sad-400w.jpg"
+               class="media--fluid"
+               alt="panda realizing it's inevitable return to the abyss" />
+          <h2>Despair</h2>
+          <p>
+            https://github.com/udacity/Bokeh
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
