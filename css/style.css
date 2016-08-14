@@ -1,22 +1,27 @@
 header {
     margin-top: 1em;
 }
+
 p {
     font: normal 500 1em 'Open Sans', sans-serif;
     margin: 0 auto 2em;
+    word-wrap: break-word;
 }
+
 h1 {
     font: normal lighter 3.25em 'Quicksand', sans-serif;
     text-transform: uppercase;
     text-align: right;
     margin: 0 auto;
 }
+
 h4 {
     font: normal bold 1.2em 'Quicksand', sans-serif;
     text-align: right;
     text-transform: uppercase;
     margin: 0;
 }
+
 hr {
     background-color: seagreen;
     height: .33em;
@@ -24,17 +29,21 @@ hr {
     width: 83%;
     margin: 1.5em auto 2em;
 }
+
 h3 {
     font: normal 400 2em 'Source Sans Pro', sans-serif;
     color: #7d97ad;
     margin: .8em 0 .5em;
 }
+
 .projects-container {
     margin: 0 -30px;
 }
+
 .project {
     text-align: center;
 }
+
 h2 {
     font: normal lighter 2em 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
